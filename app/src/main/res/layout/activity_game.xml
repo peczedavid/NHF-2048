@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/parent_layout"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_light"
+        android:orientation="vertical"
+        tools:context=".activities.GameActivity">
+
+        <!-- Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/newGameBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="35dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/brown_1"
+                android:text="@string/new_game"
+                android:textColor="@color/tile_light_text" />
+
+            <Button
+                android:id="@+id/stepBackBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:backgroundTint="@color/brown_1"
+                android:layout_weight="1"
+                android:text="@string/step_back"
+                android:textColor="@color/tile_light_text" />
+
+        </LinearLayout>
+
+        <!-- Game board -->
+        <FrameLayout
+            android:id="@+id/gameBoard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="25dp">
+
+            <GridLayout
+                android:id="@+id/gridLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/board_background_color"
+                android:layout_gravity="center_horizontal"
+                android:columnCount="4"
+                android:padding="5dp"
+                android:rowCount="4">
+
+                <TextView
+                    android:id="@+id/backgroundTile"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/tile_background_color"
+                    android:text=""/>
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/tile_background_color"
+                    android:text="" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/tile_background_color"
+                    android:text="" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/tile_background_color"
+                    android:text="" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/tile_background_color"
+                    android:text="" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/tile_background_color"
+                    android:text="" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/tile_background_color"
+                    android:text="" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/tile_background_color"
+                    android:text="" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/tile_background_color"
+                    android:text="" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/tile_background_color"
+                    android:text="" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/tile_background_color"
+                    android:text="" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/tile_background_color"
+                    android:text="" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/tile_background_color"
+                    android:text="" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/tile_background_color"
+                    android:text="" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/tile_background_color"
+                    android:text="" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/tile_background_color"
+                    android:text="" />
+
+            </GridLayout>
+        </FrameLayout>
+
+        <!-- Textview elements  -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/pointsTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/tile_dark_text"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:text="Points: 99999" />
+
+            <TextView
+                android:id="@+id/timeTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="textEnd"
+                android:textColor="@color/tile_dark_text"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:text="00:00:00" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

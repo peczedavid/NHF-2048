@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NHF</string>
+    <string name="game_title">2048</string>
+    <string name="play_game">Play game</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="new_game">New game</string>
+    <string name="step_back">Step back</string>
+
+    <string name="leaderboard_placing">#%s</string>
+    <string name="weather">Weather in %s </string>
+</resources>

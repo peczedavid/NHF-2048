@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/background_light"
+    android:paddingVertical="5dp"
+    android:weightSum="5">
+
+    <TextView
+        android:id="@+id/placingTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        tools:text="#20"/>
+
+    <TextView
+        android:id="@+id/pointsTv"
+        android:layout_weight="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        tools:text="Points: 99999"/>
+
+    <TextView
+        android:id="@+id/timeTv"
+        android:layout_weight="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        tools:text="Time: 99:99:99"/>
+
+</LinearLayout>

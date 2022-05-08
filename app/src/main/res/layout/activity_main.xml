@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_marginVertical="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/game_title"
+        android:textSize="60sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:shadowColor="@color/brown_2"
+        android:shadowRadius="10">
+    </TextView>
+
+    <Button
+        android:id="@+id/playGameBtn"
+        android:layout_marginVertical="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play_game"
+        android:textColor="@color/tile_light_text"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="50dp"
+        android:textSize="28sp"
+        android:backgroundTint="@color/orange_brown_1"
+        android:layout_gravity="center"
+>
+    </Button>
+
+    <Button
+        android:id="@+id/leaderboardBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/leaderboard"
+        android:textColor="@color/tile_light_text"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="26dp"
+        android:textSize="28sp"
+        android:backgroundTint="@color/orange_brown_2"
+        android:layout_gravity="center">
+    </Button>
+</LinearLayout>

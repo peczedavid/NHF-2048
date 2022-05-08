@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom colors -->
+    <color name="background_light">#DACDC0</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#8E8682</color>
+    <color name="brown_1">#876946</color>
+    <color name="brown_2">#754D1F</color>
+    <color name="brown_3">#5A3810</color>
+    <color name="orange_brown_1">#BC6A32</color>
+    <color name="orange_brown_2">#88471B</color>
+    <!-- Game tile colors -->
+    <color name="tile_dark_text">#332E28</color>
+    <color name="tile_light_text">#F1E8E1</color>
+
+    <color name="board_background_color">#BCB1A1</color>
+
+    <color name="tile_background_color">#9E8F7A</color>
+    <color name="tile_0_color">#00000000</color>
+    <color name="tile_2_color">#D6C2A0</color>
+    <color name="tile_4_color">#CDB586</color>
+    <color name="tile_8_color">#A36E55</color>
+    <color name="tile_16_color">#955A27</color>
+    <color name="tile_32_color">#BA513F</color>
+    <color name="tile_64_color">#933728</color>
+    <color name="tile_128_color">#E3C671</color>
+    <color name="tile_256_color">#DFB73F</color>
+    <color name="tile_512_color">#E8CA13</color>
+    <color name="tile_1024_color">#DCAA15</color>
+    <color name="tile_2048_color">#F3A50A</color>
+    <color name="tile_4096_color">#BC3146</color>
+    <color name="tile_8192_color">#931F30</color>
+    <color name="tile_16384_color">#850F27</color>
+</resources>
